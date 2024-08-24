@@ -1,0 +1,641 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #232222;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo{
+    height: 50px;
+    width: 52px;
+
+}
+.logo{
+    background-image: url(apnidukaan.jpg);
+    height: 50px;
+    width: 52px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.border{
+    border: 2px solid transparent;
+
+}
+
+.border:hover{
+    border: 2px solid #ffffff;
+
+}
+
+/**box 2**/
+
+.address1{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 10px;
+}
+
+.address2{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+    align-items:center ;
+    
+}
+
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+    border-radius: 3px;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: #febd68;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    color: #0f1111;
+}
+
+/*box 4*/
+
+
+span{
+    font-size: 0.7rem;
+    
+    
+}
+
+.nav-second{
+
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-search:hover{ 
+    border: 2px solid orange;
+
+}
+
+.nav-cart i {
+    font-size: 20px;
+}
+
+.nav-cart{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 7px;
+}
+
+/*pannel*/
+
+
+.pannel{ 
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-ops p{
+    display: inline;
+    margin-left: 19px;
+    
+}
+
+.pannel-ops {
+    width: 70%;
+    font-size: 0.8rem;
+}
+.pannel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section*/
+
+.hero-section{
+    background-image: url(heros.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg{
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/*sale is live(marquee tag)*/
+
+marquee{
+    background-color: red;
+    color: yellow;
+    height: 30px;
+    font-size: 20px;
+}
+
+
+/*shop section*/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e8e1e1;
+    flex: wrap;
+    margin-top: 15px;
+
+}
+
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 23%;
+    background-color: white;
+    border-radius: 10px;
+    
+
+}
+
+.box-img1{
+    background-image: url(laptop1.jpg);
+    height: 200px;
+    background-size: cover;
+}
+
+.box-img2{
+    background-image: url(phone.jpg);
+    height: 250px;
+    background-size: cover;
+}
+
+.box-img3{
+    background-image: url(headphone.jpg);
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img4{
+    background-image: url(buds.jpg);
+    height: 250px;
+    background-size: cover;
+}
+.shop-section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e8e1e1;
+    flex: wrap;
+    margin-top: 15px;
+    border-radius: 10px;
+
+}
+.box5{
+    border: 2px solid black;
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.box-img5{
+    background-image: url(phonecooler.jpg);
+    height: 380px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.box-img6{
+    background-image: url(bag.jpg);
+    height: 380px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.box-img7{
+    background-image: url(gopro.jpg);
+    height: 299px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.box-img8{
+    background-image: url(watch.jpg);
+    height: 299px;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.hr-more{
+    margin-top: 10px;
+}
+
+.more-items{
+    background-color: #e8e1e1;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.more-items-img1{
+    background-image: url(cam-grp.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+.more-items-img2{
+    background-image: url(trimmer.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+.more-items-img3 {
+    background-image: url(ph-grp.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+.more-items-img4{
+    background-image: url(lap-grp.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+
+.more-items-img5{
+    background-image: url(tv.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+
+.more-items-img6{
+    background-image: url(washing-machine.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+
+.more-items2{
+    background-color: #e8e1e1;
+    height: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.more-items3{
+    background-color: #e8e1e1;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.more-img7{
+    background-image: url(more-items-img7.png);
+    background-size: cover;
+    height: 300px;
+    width: 1200px;
+    border-radius: 10px;
+}
+.more-items4{
+    background-color: #e8e1e1;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.more-img8{
+    background-image: url(more-img8.png);
+    background-size: cover;
+    height: 280px;
+    width: 1750px;
+    border-radius: 10px;
+}
+
+
+.more-items5{
+    background-color: #e8e1e1;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+
+.more-items-img9{
+    background-image: url(tabs.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.more-items-img10{
+    background-image: url(img10.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.more-items-img11{
+    background-image: url(img11.png);
+    background-size: cover;
+    height: 360px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+
+
+/*foot pannel*/
+footer{
+    margin-top: 10px;
+}
+
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color: #cecbcb;
+}
+ul p {
+    font-weight: 700;
+    font-size: 17px;
+}
+ul{
+    margin-top: 20px;
+}
+
+.insta i{
+    text-decoration:none;
+    
+}
+
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.hr-div{
+    background-color: #222f3d;
+    color: #222f3d;
+    width: 1rem;
+}
+
+#hr-line{
+    
+    width:300px;
+}
+
+.last-logo{
+    height: 80px;
+    width: 170px;
+    position: relative;
+    left: 160px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 17px;
+
+}
+.tag-line{
+    height: 50px;
+    width: 110px;
+    
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #5c5c5c;
+    margin-right: 290px;
+    
+    font-size: 13px;
+}
+
+
+
+/* account & list page */
+
+.account-logo{
+    background-image: url(new-acc.png);
+    height: 540px;
+    width: 1170px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#hr-acc{
+    height: 5px solid black;
+    margin: 30px;
+}
+
+.account-img{
+    background-color: #ffffff;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-img1{
+    background-image: url(acc1.png);
+    height: 290px;
+    width: 1100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-img2{
+    background-image: url(acc2.png);
+    height: 210px;
+    width: 1100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-img3{
+    background-image: url(acc3.png);
+    height: 210px;
+    width: 800px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** order page **/
+
+.order-img{
+    background-image: url(order.png);
+    height: 200px;
+    width: 1100px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-text{
+    background-color: #e8e1e1;
+    height: 250px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/**cart page**/
+
+.cart{
+    background-color: #ffffff;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-logo{
+    background-image: url(cart.png);
+    height: 450px;
+    width: 700px;
+    border-radius: 30px;
+    
+}
+
+
+
+/** phone page **/
+
+.phone-img{
+    height: 900px;
+    width: 900px;
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.phone-img1{
+    background-image: url(phone1.jpg);
+    height: 200px;
+    width: 300px;
+}
